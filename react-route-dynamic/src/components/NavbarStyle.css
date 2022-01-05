@@ -1,0 +1,24 @@
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width:200px;
+    margin: -10px;
+    padding: 0
+
+}
+.flex2{
+    display: flex;
+    border: 1px solid #ccc;
+}
+.input{
+    height:30px;
+    width: 500px;
+}
+.div3{
+    margin-left: 10px;
+    margin-right: 50px;
+    
+    
+}
