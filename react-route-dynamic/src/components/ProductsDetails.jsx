@@ -25,12 +25,12 @@ export const ProductsDetails = () => {
       {product.map((e) => (
         <>
           <div
-            style={{
-              border: "1px solid",
-              borderRadius: "15px",
-              width: "400px",
-              margin: "auto",
-            }}
+            // style={{
+            //   border: "1px solid",
+            //   borderRadius: "15px",
+            //   width: "400px",
+            //   margin: "auto",
+            // }}
           >
             <h1>CarName:{e.CarName}</h1>
             <h2>CompanyName :{e.Company}</h2>

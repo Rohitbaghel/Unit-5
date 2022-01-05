@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
+      <Route path="*" element={<div>404 Page not found</div>}></Route>
         <Route path="/" element={<Home />}></Route>
         <Route path="/products" element={<Products/>}></Route>
         <Route path="/products/:producsDetail" element={<ProductsDetails/>}></Route>
