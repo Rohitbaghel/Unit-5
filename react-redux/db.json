@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "status": false,
+      "title": "REACT",
+      "id": 1
+    },
+    {
+      "status": false,
+      "title": "REACT",
+      "id": 2
+    },
+    {
+      "status": false,
+      "title": "VIEW",
+      "id": 3
+    },
+    {
+      "status": false,
+      "title": "REACT",
+      "id": 4
+    },
+    {
+      "status": false,
+      "title": "VIEW",
+      "id": 5
+    }
+  ]
+}
