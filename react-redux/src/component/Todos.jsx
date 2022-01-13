@@ -8,16 +8,16 @@ import {
   getTodoSuccess,
   getTodoLoading,
   getTodoError,
-} from "../store/action";
+} from "../Features/Todos/action";
 
 export const Todos = () => {
   const [text, setText] = useState("");
   // const [todo,setTo do] = useState([])
   const dispatch = useDispatch();
   const { loading, todos, error } = useSelector((state) => ({
-    loading: state.loading,
-    todos: state.todos,
-    error: state.error,
+    loading: state.TodoState.loading,
+    todos: state.TodoState.todos,
+    error: state.TodoState.error,
   } ) );
   useEffect( () =>
   {
@@ -75,8 +75,8 @@ export const Todos = () => {
       >
         Add Todo
       </button>
-      {todos.map(({ title, status }) => (
-        <div>
+      {todos.map(({ title, status ,id}) => (
+        <div key={id}>
           {title} -{status ? "DONE" : "NOT DONE"}
         </div>
       ))}
